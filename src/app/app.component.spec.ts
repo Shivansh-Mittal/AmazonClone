@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'crudUI'`, () => {
+  it(`should have as title 'AmazonClone'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('crudUI');
+    expect(app.title).toEqual('AmazonClone');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('crudUI app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('AmazonClone app is running!');
   });
 });
