@@ -11,6 +11,23 @@
     display: flex;
 }
 
+.header_menu > div {
+    margin: 8px;
+}
+
+.header_menu_icon > mat-icon{
+    font-size: 30px;
+    align-items: center;
+}
+
+.header_menu_searchbar {
+    display: flex;
+    margin-top: 8px;
+    height: 40px;
+    justify-content: center;
+    flex: 1;
+}
+
 .header_menu_logo {
     object-fit: contain;
     width: 100px;
@@ -20,4 +37,14 @@
 .header_menu_signin {
     display: flex;
     flex-direction: column;
+}
+
+.header_menu_top_item {
+    font-size: 10px;
+    color: lightgray;
+}
+
+.header_menu_bottom_item {
+    font-size: 13px;
+    font-weight: 800;
 }
